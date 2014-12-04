@@ -1,23 +1,25 @@
-# About This Book
+# 关于本书
 
-## License
+## 许可
 
-The Little Go Book is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. You should not have paid for this book.
+《Go语言小书》是基于Attribution-NonCommercial-ShareAlike 4.0 International许可证写作的作品，这意味着你不需要为本书付费。
 
-You are free to copy, distribute, modify or display the book. However, I ask that you always attribute the book to me, Karl Seguin, and do not use it for commercial purposes.
+你可以自由的复制，分发，修改和展示本书。但是在对作品进行修改和分发时请注明中作者Karl Seguin，同时请不要将本书加入到任何的商业用途中。
 
-You can see the full text of the license at:
-
+关于上述许可证的更多信息，你可以查看下面的链接:
 <http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-## Latest Version
+## 最新的版本
 
-The latest source of this book is available at:
+你可以在这里找到本书的最新版本:
 <http://github.com/karlseguin/the-little-go-book>
 
-# Introduction
+# 引子
 
-I've always had a love-hate relationship when it comes to learning new languages. On the one hand, languages are so fundamental to what we do, that even small changes can have measurable impact. That *aha* moment when something clicks can have a lasting effect on how you program and can redefine your expectations of other languages. On the downside, language design is fairly incremental. Learning new keywords, type system, coding style as well as new libraries, communities and paradigms is a lot of work that seems hard to justify. Compared to everything else we have to learn, new languages often feel like a poor investment of our time.
+当开始学习一门新语言时，我总是怀有一种又爱又恨的情绪。一方面，语言是所有事情的基础，语言中发生的一丁点变化都会造成不小的影响。想想你在编程过程中遇到的那些激动人心的小时刻，它们可能会决定你如何编写程序，以及你对该门语言的学习热情。而另一方面，现代编程语言的复杂程度与日俱增。学习一们新语言意味着你需要学习心得关键词，类型系统，编程风格，了解新的库，社区以及编程范式，这听起来似乎就是一件不可能完成的任务。相较于我们需要学习的其他东西，学习一门新的语言似乎不是一项划算的投资。
+
+
+
 
 That said, we *have* to move forward. We *have* to be willing to take incremental steps because, again, languages are the foundation of what we do. Though the changes are often incremental, they tend to have a wide scope and they impact productivity, readability, performance, testability, dependency management, error handling, documentation, profiling, communities, standard libraries, and so on. Is there a positive way to say *death by a thousand cuts*?
 
